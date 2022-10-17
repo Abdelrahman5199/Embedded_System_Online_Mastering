@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1665645463 source:i:\c programming\basic problem\on-demand traffic light\application.c
+	"Application.h"
+
+1665613976 i:\c programming\basic problem\on-demand traffic light\application.h
+	"led.h"
+	"button.h"
+	"timer.h"
+	"interrupts.h"
+
+1665614311 i:\c programming\basic problem\on-demand traffic light\led.h
+	"dio.h"
+
+1665614458 i:\c programming\basic problem\on-demand traffic light\dio.h
+	"registers.h"
+	"bit_manipu.h"
+
+1665613488 i:\c programming\basic problem\on-demand traffic light\registers.h
+	"types.h"
+
+1665612996 i:\c programming\basic problem\on-demand traffic light\types.h
+
+1665613812 i:\c programming\basic problem\on-demand traffic light\bit_manipu.h
+
+1665614226 i:\c programming\basic problem\on-demand traffic light\button.h
+	"dio.h"
+
+1665614387 i:\c programming\basic problem\on-demand traffic light\timer.h
+	"registers.h"
+
+1665613537 i:\c programming\basic problem\on-demand traffic light\interrupts.h
+	"registers.h"
+
+1665645495 source:i:\c programming\basic problem\on-demand traffic light\button.c
+	"button.h"
+
+1665615900 source:i:\c programming\basic problem\on-demand traffic light\dio.c
+	"dio.h"
+
+1665615225 source:i:\c programming\basic problem\on-demand traffic light\led.c
+	"led.h"
+
+1665616247 source:i:\c programming\basic problem\on-demand traffic light\main.c
+	"Application.h"
+
+1665615483 source:i:\c programming\basic problem\on-demand traffic light\timer.c
+	"timer.h"
+	<math.h>
+	"bit_manipu.h"
+
