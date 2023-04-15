@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1663856751 source:c:\users\dell\downloads\application payment\application payment\card.c
+	"card.h"
+
+1663849455 c:\users\dell\downloads\application payment\application payment\card.h
+	<string.h>
+	<stdio.h>
+
