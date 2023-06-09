@@ -10,16 +10,11 @@
 
 /**************************************************************************************
 
-*	 - Developer can't Edit in it
-*	  - Register _ Defination
-*	  - Design :
-					- #define	:	NO
-					- Union		:	NO
-					- Struct	:	YES
+*	 Abdelrahman Kotb
 
 **************************************************************************************/
-#ifndef MCAL_NVIC_NVIC_PRIVATE_H_
-#define MCAL_NVIC_NVIC_PRIVATE_H_
+#ifndef NVIC_NVIC_PRIVATE_H_
+#define NVIC_NVIC_PRIVATE_H_
 
 #define NVIC_BASE_ADDRESS					0xE000E100
 
@@ -41,4 +36,4 @@ typedef struct
 }NVIC_TypeDef;
 
 #define NVIC				((NVIC_TypeDef*)(NVIC_BASE_ADDRESS))
-#endif /* MCAL_NVIC_NVIC_PRIVATE_H_ */
+#endif /* NVIC_NVIC_PRIVATE_H_ */

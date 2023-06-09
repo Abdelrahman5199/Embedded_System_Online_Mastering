@@ -1,12 +1,12 @@
 /*
  * Std_Types.h
  *
- *  Created on: Apr 15, 2022
- *      Author: Ahmed
+ *
+ *      Author: Abdelrahman Kotb
  */
 
-#ifndef LIB_STD_TYPES_H_
-#define LIB_STD_TYPES_H_
+#ifndef STD_TYPES_H_
+#define STD_TYPES_H_
 #define NULL	0
 typedef unsigned char				u8;
 typedef unsigned short int			u16;
@@ -23,4 +23,4 @@ typedef double						f64;
 typedef long double					f80;
 
 
-#endif /* LIB_STD_TYPES_H_ */
+#endif /* STD_TYPES_H_ */

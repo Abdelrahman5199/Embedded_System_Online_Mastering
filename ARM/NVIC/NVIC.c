@@ -4,13 +4,13 @@
 =========================================================================================*/
 
 /*===========   INCLUDE LIB   ===========*/
-		 #include "LIB/Std_Types.h"
-		 #include "LIB/Bit_Math.h"
+		 #include "Std_Types.h"
+		 #include "Bit_Math.h"
 /*======================================*/
 /*===========  INCLUDE MCAL  ===========*/
-		#include "MCAL/NVIC/NVIC_Private.h"
-		#include "MCAL/NVIC/NVIC.h"
-		#include "MCAL/NVIC/NVIC_Config.h"
+		#include "NVIC/NVIC_Private.h"
+		#include "NVIC/NVIC.h"
+		#include "NVIC/NVIC_Config.h"
 /*======================================*/
 /*===========  INCLUDE HAL   ===========*/
 

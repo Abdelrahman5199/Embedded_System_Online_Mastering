@@ -1,14 +1,11 @@
 
 /*
- * stm32f103x8_USART_driver.h
  *
- *  Created on: Apr 28, 2021
- *      Author: Keroles Shenouda
- *      Mastering Embedded System Online Diploma
- *      www.learn-in-depth.com
+ *      Author: Abdelrahman Kotb
+ *
  */
 
-#include "stm32f103x8_RCC_driver.h"
+#include "stm32_RCC.h"
 
 //PPRE1[2:0]: APB Low-speed prescaler (APB1)
 //0xx: HCLK not divided

@@ -1,14 +1,11 @@
 /*
- * stm32f103x8_gpio_driver.h
  *
- *  Created on: Apr 28, 2021
- *      Author: Keroles Shenouda
- *      Mastering Embedded System Online Diploma
- *      www.learn-in-depth.com
+ *      Author: Abdelrahman Kotb
+ *
  */
 
-#ifndef STM32F103X8_GPIO_DRIVER_H_
-#define STM32F103X8_GPIO_DRIVER_H_
+#ifndef STM32_GPIO_H_
+#define STM32_GPIO_H_
 
 
 #include "STM32F103x8.h"
@@ -143,4 +140,4 @@ uint8_t MCAL_GPIO_LockPin	(GPIO_TypeDef *GPIOx , uint16_t PinNumber);
 
 
 
-#endif /* STM32F103X8_GPIO_DRIVER_H_ */
+#endif /* STM32_GPIO_H_ */

@@ -1,19 +1,16 @@
 
 /*
- * stm32f103x8_gpio_driver.h
  *
- *  Created on: Apr 28, 2021
- *      Author: Keroles Shenouda
- *      Mastering Embedded System Online Diploma
- *      www.learn-in-depth.com
+ *      Author: Abdelrahman Kotb
+ *
  */
 
-#ifndef STM32F103X8_EXTI_DRIVER_H_
-#define STM32F103X8_EXTI_DRIVER_H_
+#ifndef STM32_EXTI_H_
+#define STM32_EXTI_H_
 
 //includes
 #include "STM32F103x8.h"
-#include "stm32f103x8_gpio_driver.h"
+#include "stm32_gpio.h"
 
 typedef struct
 {
@@ -213,4 +210,4 @@ void MCAL_EXTI_GPIO_Update (EXTI_PinConfig_t* EXTI_Config);
 
 
 
-#endif /* STM32F103X8_EXTI_DRIVER_H_ */
+#endif /* STM32_EXTI_H_ */
